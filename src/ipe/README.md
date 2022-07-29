@@ -9,13 +9,12 @@ Allows one to:
 
 ## Required Packages
 - numpy (numpy.loadtxt() is used to read in csv)
-- basic-plts (see tyjoto/basic-plts.git)
 
 
 ## How to run
 
 ```
-python -m ipes.py <-additional flags> [options]
+python -m ipe <-additional flags> [options]
 ```
 
 ### Optional flags

@@ -1,18 +1,17 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-import basic.basic_plt as bplt
-import basic.numpy_read as bnpr
-
-
-import potential_commands as pcmd
-import helpprint as h
+from ipe import plot as bplt
+from ipe import np_csv as bnpr
+from ipe import potential_commands as pcmd
+from ipe import helpprint as h
 
 def loop(fname,sname,delimiter,skiprows):
 
     # check if filename was passed in
     if fname is None:
-        fname = input("Please enter path to file name i.e. your/path/to/file.csv\n>>")
+        fname = input("Please enter path to file name"\
+                +"i.e. your/path/to/file.csv\n>>")
     #print("Reading in %s"%(fname))
     #data = readCSV(fname,delimiter,skiprows)
     data = bnpr.importCSV(fname,skiprows,delimiter)

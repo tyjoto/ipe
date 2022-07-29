@@ -1,7 +1,6 @@
-import basic.basic_plt as bplt
-
-import potential_commands_extentions as pce
-import helpprint as h
+from ipe import plot as bplt
+from ipe import potential_commands_extentions as pce
+from ipe import helpprint as h
 
 
 

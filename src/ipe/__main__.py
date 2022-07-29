@@ -1,6 +1,6 @@
 import argparse as arg
 
-import loop as lp
+from ipe import loop as lp
 
 parser = arg.ArgumentParser()
 parser.add_argument("-f","--filename",

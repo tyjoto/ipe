@@ -1,9 +1,8 @@
 import numpy as np
 
-import basic.basic_plt as bplt
-import basic.basic_fit as bfit
-
-import helpprint as h
+from ipe import plot as bplt
+from ipe import fits as bfit
+from ipe import helpprint as h
 
 def potential_commands_axes_limits(ax):
 
